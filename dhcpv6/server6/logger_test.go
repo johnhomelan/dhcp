@@ -5,7 +5,7 @@ import(
 	"os"
 	"testing"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6"
+	"github.com/johnhomelan/dhcp/dhcpv6"
 	"github.com/stretchr/testify/require"
 )
 

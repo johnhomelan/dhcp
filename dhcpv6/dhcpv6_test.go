@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
+	"github.com/johnhomelan/dhcp/iana"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	"github.com/u-root/uio/rand"

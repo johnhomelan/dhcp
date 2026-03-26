@@ -1,7 +1,7 @@
 package server4
 
 import (
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4"
 )
 
 // Logger is a handler which will be used to output logging messages

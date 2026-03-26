@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
+	"github.com/johnhomelan/dhcp/iana"
 	"github.com/u-root/uio/uio"
 )
 

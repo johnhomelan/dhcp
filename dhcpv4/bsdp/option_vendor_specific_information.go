@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4"
 )
 
 // VendorOptions is like dhcpv4.Options, but stringifies using BSDP-specific

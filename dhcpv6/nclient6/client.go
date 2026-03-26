@@ -17,7 +17,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6"
+	"github.com/johnhomelan/dhcp/dhcpv6"
 )
 
 // Broadcast destination IP addresses as defined by RFC 3315

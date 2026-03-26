@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4/nclient4"
-	"gitlab.ask4.net/jbrown/dhcp.git/interfaces"
+	"github.com/johnhomelan/dhcp/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4/nclient4"
+	"github.com/johnhomelan/dhcp/interfaces"
 	"github.com/stretchr/testify/require"
 )
 

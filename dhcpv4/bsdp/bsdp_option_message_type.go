@@ -3,7 +3,7 @@ package bsdp
 import (
 	"fmt"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4"
 	"github.com/u-root/uio/uio"
 )
 

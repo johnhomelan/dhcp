@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
-	"gitlab.ask4.net/jbrown/dhcp.git/rfc1035label"
+	"github.com/johnhomelan/dhcp/iana"
+	"github.com/johnhomelan/dhcp/rfc1035label"
 	"github.com/u-root/uio/rand"
 	"github.com/u-root/uio/uio"
 )

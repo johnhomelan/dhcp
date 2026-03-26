@@ -1,7 +1,7 @@
 package server6
 
 import (
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6"
+	"github.com/johnhomelan/dhcp/dhcpv6"
 )
 
 // Logger is a handler which will be used to output logging messages

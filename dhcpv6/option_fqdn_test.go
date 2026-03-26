@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/rfc1035label"
+	"github.com/johnhomelan/dhcp/rfc1035label"
 	"github.com/stretchr/testify/require"
 )
 

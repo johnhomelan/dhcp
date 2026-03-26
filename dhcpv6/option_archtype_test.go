@@ -3,7 +3,7 @@ package dhcpv6
 import (
 	"testing"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
+	"github.com/johnhomelan/dhcp/iana"
 	"github.com/stretchr/testify/require"
 )
 

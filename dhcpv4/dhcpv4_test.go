@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
+	"github.com/johnhomelan/dhcp/iana"
 	"github.com/stretchr/testify/require"
 	"github.com/u-root/uio/uio"
 )

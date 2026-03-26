@@ -1,8 +1,8 @@
 package dhcpv4
 
 import (
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
-	"gitlab.ask4.net/jbrown/dhcp.git/rfc1035label"
+	"github.com/johnhomelan/dhcp/iana"
+	"github.com/johnhomelan/dhcp/rfc1035label"
 )
 
 // OptDomainSearch returns a new domain search option.

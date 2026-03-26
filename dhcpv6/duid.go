@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
+	"github.com/johnhomelan/dhcp/iana"
 )
 
 // DuidType is the DUID type as defined in rfc3315.

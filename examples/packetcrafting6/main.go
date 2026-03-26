@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6"
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
+	"github.com/johnhomelan/dhcp/dhcpv6"
+	"github.com/johnhomelan/dhcp/iana"
 )
 
 func main() {

@@ -8,7 +8,7 @@ import (
 	"net"
 	"os"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/interfaces"
+	"github.com/johnhomelan/dhcp/interfaces"
 	"golang.org/x/sys/unix"
 )
 

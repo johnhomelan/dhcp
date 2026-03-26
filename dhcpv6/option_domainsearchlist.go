@@ -3,7 +3,7 @@ package dhcpv6
 import (
 	"fmt"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/rfc1035label"
+	"github.com/johnhomelan/dhcp/rfc1035label"
 )
 
 // OptDomainSearchList returns a DomainSearchList option as defined by RFC 3646.

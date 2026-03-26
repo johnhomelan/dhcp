@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4"
 )
 
 // CircuitID represents the structure of network vendor interface formats

@@ -6,9 +6,9 @@ import (
 	"net"
 	"testing"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6"
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6/nclient6"
-	"gitlab.ask4.net/jbrown/dhcp.git/interfaces"
+	"github.com/johnhomelan/dhcp/dhcpv6"
+	"github.com/johnhomelan/dhcp/dhcpv6/nclient6"
+	"github.com/johnhomelan/dhcp/interfaces"
 	"github.com/stretchr/testify/require"
 )
 

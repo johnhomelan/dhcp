@@ -26,8 +26,8 @@
 //		"log"
 //		"net"
 //
-//		"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
-//		"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4/server4"
+//		"github.com/johnhomelan/dhcp/dhcpv4"
+//		"github.com/johnhomelan/dhcp/dhcpv4/server4"
 //	)
 //
 //	func handler(conn net.PacketConn, peer net.Addr, m *dhcpv4.DHCPv4) {
@@ -57,7 +57,7 @@ import (
 	"net"
 	"os"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4"
 )
 
 // Handler is a type that defines the handler function to be called every time a

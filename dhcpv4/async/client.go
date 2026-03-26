@@ -9,8 +9,8 @@ import (
 	"time"
 
 	promise "github.com/fanliao/go-promise"
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4/client4"
+	"github.com/johnhomelan/dhcp/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4/client4"
 )
 
 // Default ports
@@ -22,7 +22,7 @@ const (
 // Client implements an asynchronous DHCPv4 client
 // It doesn't use the broadcast socket! Which means it should be used only when
 // the network is already established.
-// https://gitlab.ask4.net/jbrown/dhcp.git/issues/143
+// https://github.com/johnhomelan/dhcp/issues/143
 type Client struct {
 	ReadTimeout  time.Duration
 	WriteTimeout time.Duration

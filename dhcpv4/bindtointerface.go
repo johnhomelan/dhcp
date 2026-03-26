@@ -1,7 +1,7 @@
 package dhcpv4
 
 import (
-	"gitlab.ask4.net/jbrown/dhcp.git/interfaces"
+	"github.com/johnhomelan/dhcp/interfaces"
 )
 
 // BindToInterface (deprecated) redirects to interfaces.BindToInterface

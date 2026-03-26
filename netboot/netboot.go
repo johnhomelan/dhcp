@@ -6,10 +6,10 @@ import (
 	"log"
 	"time"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4/client4"
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6"
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6/client6"
+	"github.com/johnhomelan/dhcp/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4/client4"
+	"github.com/johnhomelan/dhcp/dhcpv6"
+	"github.com/johnhomelan/dhcp/dhcpv6/client6"
 )
 
 var sleeper = func(d time.Duration) {

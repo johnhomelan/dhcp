@@ -9,8 +9,8 @@ import (
 	"time"
 
 	promise "github.com/fanliao/go-promise"
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6"
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv6/client6"
+	"github.com/johnhomelan/dhcp/dhcpv6"
+	"github.com/johnhomelan/dhcp/dhcpv6/client6"
 )
 
 // Client implements an asynchronous DHCPv6 client

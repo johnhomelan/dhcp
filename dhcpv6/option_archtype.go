@@ -3,7 +3,7 @@ package dhcpv6
 import (
 	"fmt"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
+	"github.com/johnhomelan/dhcp/iana"
 )
 
 // OptClientArchType represents an option CLIENT_ARCH_TYPE.

@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
-	"gitlab.ask4.net/jbrown/dhcp.git/iana"
+	"github.com/johnhomelan/dhcp/dhcpv4"
+	"github.com/johnhomelan/dhcp/iana"
 )
 
 // VendorData is optional data a particular vendor may or may not include

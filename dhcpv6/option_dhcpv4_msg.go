@@ -3,7 +3,7 @@ package dhcpv6
 import (
 	"fmt"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4"
 )
 
 // OptDHCPv4Msg represents a OptionDHCPv4Msg option

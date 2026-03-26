@@ -1,4 +1,4 @@
-module gitlab.ask4.net/jbrown/dhcp.git
+module github.com/johnhomelan/dhcp
 
 go 1.13
 

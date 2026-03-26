@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitlab.ask4.net/jbrown/dhcp.git/dhcpv4"
+	"github.com/johnhomelan/dhcp/dhcpv4"
 )
 
 const (
