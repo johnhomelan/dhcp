@@ -160,14 +160,6 @@ func (o Options) fromBytesCheckEnd(data []byte, checkEndOption bool) error {
 		return io.ErrUnexpectedEOF
 	}
 
-	// Any bytes left must be padding.
-	var pad uint8
-	for buf.Len() >= 1 {
-		pad = buf.Read8()
-		if pad != optPad && pad != optEnd {
-			return ErrInvalidOptions
-		}
-	}
 	return nil
 }
 
